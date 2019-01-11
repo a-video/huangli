@@ -1,8 +1,3 @@
-<?php
-ini_set("error_reporting","E_ALL & ~E_NOTICE");
-header("Content-type: text/html;charset=utf-8");
-$invcode = $_GET["invcode"];
- ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -17,13 +12,6 @@ $invcode = $_GET["invcode"];
 </head>
 <body>
 <div class="page1">
-    <!--<img id="img_logo" class="logo img-center" src="https://p2.ssl.qhimg.com/d/inn/73db53be/logo_android.png">-->
-    <?php if($invcode <> ''){
-        echo '<div style="text-align:center;padding-top:35px;color:#fff;">邀请码：<b>';
-        echo $invcode;
-        echo '</b></div>';
-    }
-     ?>
     <img class="text img-center" src="http://p1.qhimg.com/t01e1c8ca1ac8c51f51.png">
     <img class="phone img-center" src="https://i.loli.net/2019/01/11/5c3803c374d9c.png">
     <img class="circle" src="http://p2.qhimg.com/t0163ddfdbf1d62fe04.png">
